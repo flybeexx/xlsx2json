@@ -54,6 +54,10 @@ parsed_cmds.forEach(function (e) {
  */
 function exportJson(args) {
 
+  var data = new Date();
+  var timeStr = (Math.round(data.getTime() / 1000)).toString();
+  var destFolderName = config.xlsx.dest + '/' + timeStr;
+
   if (typeof args === 'undefined' || args.length === 0) {
     glob(config.xlsx.src, function (err, files) {
       if (err) {
@@ -62,14 +66,14 @@ function exportJson(args) {
       }
 
       files.forEach(function (element, index, array) {
-        xlsx.toJson(path.join(__dirname, element), path.join(__dirname, config.xlsx.dest), config.xlsx.head, config.xlsx.arraySeparator);
+        xlsx.toJson(path.join(__dirname, element), path.join(__dirname, destFolderName), config.xlsx.head, config.xlsx.arraySeparator);
       });
 
     });
   } else {
     if (args instanceof Array) {
       args.forEach(function (element, index, array) {
-        xlsx.toJson(path.join(__dirname, element), path.join(__dirname, config.xlsx.dest), config.xlsx.head, config.xlsx.arraySeparator);
+        xlsx.toJson(path.join(__dirname, element), path.join(__dirname, destFolderName), config.xlsx.head, config.xlsx.arraySeparator);
       });
     }
   }
