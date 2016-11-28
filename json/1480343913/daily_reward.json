@@ -1,0 +1,93 @@
+{
+  "1": {
+    "req_score": 30,
+    "wood": 10,
+    "food": 10,
+    "ore": 10,
+    "silver": 10,
+    "reward_id_1": "item_casino_knucklebone_tiny",
+    "reward_value_1": 1,
+    "reward_id_2": "item_steel_medium1",
+    "reward_value_2": 0,
+    "reward_id_3": null,
+    "reward_value_3": null
+  },
+  "2": {
+    "req_score": 70,
+    "wood": 0,
+    "food": 0,
+    "ore": 0,
+    "silver": 0,
+    "reward_id_1": "item_gve_boss_key",
+    "reward_value_1": 1,
+    "reward_id_2": "item_steel_medium1",
+    "reward_value_2": 1,
+    "reward_id_3": null,
+    "reward_value_3": null
+  },
+  "3": {
+    "req_score": 120,
+    "wood": 20,
+    "food": 20,
+    "ore": 20,
+    "silver": 20,
+    "reward_id_1": "item_casino_knucklebone_tiny",
+    "reward_value_1": 1,
+    "reward_id_2": "item_steel_medium1",
+    "reward_value_2": 0,
+    "reward_id_3": "item_casino_rune_stone_tiny",
+    "reward_value_3": 1
+  },
+  "4": {
+    "req_score": 180,
+    "wood": 0,
+    "food": 0,
+    "ore": 0,
+    "silver": 0,
+    "reward_id_1": "item_gve_boss_key",
+    "reward_value_1": 1,
+    "reward_id_2": "item_steel_medium1",
+    "reward_value_2": 1,
+    "reward_id_3": null,
+    "reward_value_3": null
+  },
+  "5": {
+    "req_score": 260,
+    "wood": 30,
+    "food": 30,
+    "ore": 30,
+    "silver": 30,
+    "reward_id_1": "item_casino_knucklebone_tiny",
+    "reward_value_1": 2,
+    "reward_id_2": "item_steel_medium1",
+    "reward_value_2": 0,
+    "reward_id_3": null,
+    "reward_value_3": null
+  },
+  "6": {
+    "req_score": 340,
+    "wood": 0,
+    "food": 0,
+    "ore": 0,
+    "silver": 0,
+    "reward_id_1": "item_gve_boss_key",
+    "reward_value_1": 1,
+    "reward_id_2": "item_steel_medium1",
+    "reward_value_2": 1,
+    "reward_id_3": null,
+    "reward_value_3": 1
+  },
+  "7": {
+    "req_score": 420,
+    "wood": 40,
+    "food": 40,
+    "ore": 40,
+    "silver": 40,
+    "reward_id_1": "item_casino_knucklebone_tiny",
+    "reward_value_1": 2,
+    "reward_id_2": "item_steel_medium1",
+    "reward_value_2": 0,
+    "reward_id_3": "item_casino_rune_stone_tiny",
+    "reward_value_3": 1
+  }
+}
